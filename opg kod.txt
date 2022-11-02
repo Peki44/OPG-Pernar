@@ -1,0 +1,64 @@
+  <!-- <div class="sub-menu-1">
+                                <ul class="bzvz">
+                                   <li class="nav-item"><a class="nav-link" href="pekmezi.html">PEKMEZI</a></li>
+                                   <li class="nav-item"><a class="nav-link" href="sirupi.html">SIRUPI</a></li>
+                                   <li class="nav-item"><a class="nav-link" href="rakija.html">RAKIJA I LIKERI</a></li>
+                                   <li class="nav-item"><a class="nav-link" href="voceipovrce.html">VOĆE I POVRĆE</a></li>
+                                </ul>
+                             </div>
+                        </li> -->
+                        <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                NAŠI PROIZVODI
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="pekmezi.html">PEKMEZI</a></li>
+                                <li><a class="dropdown-item" href="sirupi.html">SIRUPI</a></li>
+                                <li><a class="dropdown-item" href="rakija.html">RAKIJA I LIKERI</a></li>
+                                <li><a class="dropdown-item" href="voceipovrce.html">VOĆE I POVRĆE</a></li>
+                            </ul>
+                        </li> -->
+
+
+------------------------------------------------------
+/* .dropdown{
+    text-decoration: none;
+}
+.dropdown-item{
+    color: white;
+    text-decoration: none;
+}
+.dropdown-item::after{
+    content:'';
+    width:0%;
+    height: 2px;
+    background:#f54236;
+    display: block;
+    margin:auto;
+    transition: 0.5s;
+}
+.dropdown-item:hover::after{
+    width: 100%;
+}
+.dropdown:hover .dropdown-menu{
+    border: 0;
+    display: block;
+    position:absolute;
+    background: transparent;
+    margin-top: 15px;
+    margin-left: -15px;
+    margin:10px;
+    text-align: left;
+}  */
+/* .dropdown:hover .dropdown-menu{
+    display: block;
+    margin:10px;
+    text-align: left;
+} */
+/* .dropdown:hover .dropdown-menu .dropdown-item{
+    width:auto;
+    padding: 10px;
+    background: transparent;
+    color: white;
+    border-radius: 0;
+} */

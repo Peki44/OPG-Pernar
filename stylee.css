@@ -1,0 +1,297 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+}
+h1{
+    font-family: "Montserrat-bold";
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+}
+h2{
+    font-family: "Montserrat-bold";
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
+h3{
+    margin-top: 5px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+h4,h5{
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+p{
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+#title{
+    min-height: 80vh;
+    width:100%;
+    background-image: 
+    linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images11/pozadina.jpg); 
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.container-fluid{
+    padding: 3% 10% 8%;
+}
+.navbar-brand{
+    color: white;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.nav-item{
+    margin: 0 5px;
+}
+.nav-link{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+.nav-link::after{
+    content:'';
+    width:0%;
+    height: 2px;
+    background:#f54236;
+    display: block;
+    margin:auto;
+    transition: 0.5s;
+}
+.nav-link:hover::after{
+    width: 100%;
+}
+.sub-menu-1{
+    display: none;
+}
+.dropmenu:hover .sub-menu-1{
+    display: block;
+    position:absolute;
+}
+.dropmenu:hover .sub-menu-1 ul{
+    display:block;
+}
+.dropmenu:hover .sub-menu-1 ul li{
+    width:auto;
+    background: transparent;
+    margin: 0 10px;
+}
+@media (max-width:991px){
+    .dropmenu:hover .sub-menu-1{
+        position:relative;
+    }
+    #sub-title h1{
+        margin-top: 3%;
+    }
+}
+/*main*/
+#main{
+    padding: 4% 4% 2%;
+    text-align: center;
+}
+/*products*/
+#products{
+    padding: 50px 10% 2%;
+    text-align: center;
+}
+#products .card{
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color:wheat;
+    transition: 0.3s all;
+    height: 90%;
+}
+@media (min-width:700px) and (max-width:991px){
+    #products .card{
+    height: 93%;
+    }
+}
+#products .card:hover{
+    box-shadow: 0px 0px 16px 8px rgba(0,0,0,0.2);
+    z-index: 1;
+    transform: scale(1.05);
+}
+#products .card img{
+    width:100%;
+    border-radius: 10px;
+}
+#products .card p{
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+.products-column{
+    padding: 0 2% 3%;
+}
+/*gallery*/
+#gallery{
+    padding: 20px 8%;
+    text-align: center;
+}
+.pic img{
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+    transition: 0.3s all;
+}
+.pic:hover{
+    transform: scale(1.1);
+}
+#gallery .row{
+    margin: 60px 0;
+}
+/*footer*/
+#footer{
+    color: white;
+    height: 260px;
+    padding: 2px 5%;
+    text-align: center;
+    background-color:rgba(4,9,30,0.7);
+}
+.contact{
+    margin-top: 30px;
+}
+.info{
+    margin: 30px 0;
+}
+.fa{
+    font-size: 1.2rem;
+    margin-right: 8px;
+}
+/*trgovina*/
+#sub-title{
+    min-height: 37vh;
+    width:100%;
+    background-color:darkgoldenrod;
+    color: #fff;
+}
+#store{
+    padding: 20px 10%;
+    text-align: center;
+}
+#store p{
+    margin: 5% 0 3%;
+    font-size: 1.2rem;
+}
+#store .card{
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    text-align: left;
+    background-color: #fff;
+    transition: 0.3s all;
+}
+#store .card img{
+    width: 100%;
+    border-radius: 10px;
+}
+#store .card:hover{
+    z-index: 1;
+    transform: scale(1.05);
+    background-color:wheat;
+}
+#store .row{
+    margin-bottom:5%;
+}
+.box{
+    padding: 3%;
+}
+.box h4{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color:red;
+}
+@media (max-width:767px){
+    .box{
+        padding: 2% 12% 12%;
+    }
+    #store .row{
+        margin: 8% 0 5%;
+    }
+    .products-column{
+        padding: 0 12% 2%;
+    }
+}
+/*o nama*/
+#about{
+    text-align: center;
+    padding: 6% 15% 3%;
+}
+/*kontakti*/
+#location{
+    text-align: center;
+    padding: 5% 5% 0;
+}
+#location p{
+    padding: 0 15%;
+}
+iframe{
+    padding: 0 15%;
+}
+#contact-us{
+    margin: 0 auto;
+}
+#contact-us .container-fluid{
+    padding-top: 0;
+}
+.contact-row{
+    display: flex;
+    align-items: center;
+}
+#contact-us .fa{
+    font-size: 1.8rem;
+    margin-right: 30px;
+}
+#contact-us h4{
+    font-size: 1.4rem;
+}
+#contact-us p{
+    font-size: 1rem;
+}
+.contact-col{
+    width: 40%;
+    margin: 0 auto;
+}
+@media(max-width:991px){
+    .contact-col{
+       margin-top: 40px;
+       width: 70%;
+    }
+    #contact-us .container-fluid{
+        padding-top: 3%;
+    }
+    iframe{
+        padding: 0 5%;
+    }
+}
+@media(max-width:678px){
+    .contact-col{
+       margin-top: 40px;
+       margin-bottom: 40px;
+       width: 90%;
+    }
+}
+.send-form input, .send-form textarea{
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: 1px solid #bbb;
+    outline: none;
+}
+.send-btn{
+    display: block;
+    color: #000;
+    border: 1px solid #bbb ;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.send-btn:hover{
+    border:1px solid darkgoldenrod;
+    background: darkgoldenrod;
+    transition: 0.8s;
+}
